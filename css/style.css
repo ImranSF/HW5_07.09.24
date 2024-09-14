@@ -1,0 +1,157 @@
+*{
+	font-style: inherit;
+}
+
+
+/*class selector*/
+
+.intro{
+	background-color: #ace600;
+	min-height: 5px;
+	width: "";
+	font-size: 16px;
+	text-align: center;
+}
+
+.h1{
+	background-color: aliceblue;
+	border-bottom: 2px solid lightseagreen;
+	font-family: sans-serif;
+}
+
+
+/*id selector*/
+
+.intro2{
+	background-color: lavenderblush;
+	min-height: 5px;
+	width: "";
+	font-size: 20px;
+	text-align: left;
+}
+
+#bear{
+	background-color:lightblue;
+	font-size: 50px;
+	font-style: italic;
+
+}
+
+#fun{
+	font-size: larger;
+}
+#fun span{
+	background-color: #9966ff;
+	font-size: larger;
+	font-weight: bold;
+
+}
+
+
+/*class selector*/
+
+#body{
+	background-color: lavenderblush;
+	font-size: 25px;
+}
+
+body{
+	border: 3px solid red;
+
+}
+
+/*active selector*/
+.brdr{
+	font-style: revert-layer;
+	font-size: larger;
+	font-weight: 400;
+}
+
+/*active selector*/
+
+/*checked*/
+
+.chk{
+	color: darkorchid;
+}
+
+input:checked{
+	height: 20px;
+	weight: 20px;
+
+}
+
+/*checked*/
+
+/*group selector*/
+
+.p1,
+.p2{
+	color: #cc0052;
+	font-style: italic;
+	text-underline-offset: ;
+
+}
+
+/*group selector*/
+
+
+/*text shadow*/
+
+.px{
+	font-family: sans-serif;
+	font-size:  50px;
+	font-weight: 800;
+	text-shadow: 3px 1.5px #00ccff;
+	text-align: center;
+}
+/*text shadow*/
+
+
+
+/*Focus selector*/
+
+input:focus{
+background-color:  #ff33ff;
+}
+
+/*Focus selector*/
+
+/*hover*/
+
+a:hover{
+	background-color:  #4dffff;
+}
+
+/*hover*/
+
+
+/*last child*/
+
+.container p:last-child {
+	background-color: lightgrey;
+	font-weight: 400;
+	font-size: 25px;
+	min-height: 5px;
+	width: 150px;
+	color: #b30059;
+
+}
+
+/*last child*/
+
+/*vilid silector*/
+
+input:valid{background-color: #1affff}
+
+/*vilid silector*/
+
+
+/*fonts*/
+
+.styleF{
+	font-family:'Fluff Regular';
+	font-weight:normal;
+	font-size:42px}
+
+/*fonts*/
